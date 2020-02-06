@@ -1,20 +1,24 @@
-class forest(object):
-    pass
+class Scene(object):
+    def __init__(self):
+        pass
 
-class boat(object):
-    pass
+class Opening(object):
+        print('This is going to tell how the game is gonna go')
 
-class mountain(object):
-    pass
+class Forest(object):
+        print('forest scene. goblins sneak chance')
 
-class dark_forest(object):
-    pass
+class Boat(object):
+        print('sail on a boat and beat the dangerous waters')
 
-class cave(object):
-    pass
+class Cave(object):
+        print('literally punch a bat.')
 
-class field(object):
-    pass
+class Swamp(object):
+        print('out trick a voodoo witch')
 
-class castle(object):
-    pass
+class Field(object):
+        print('fight a bandit or skip this scene if you have a horse')
+
+class Castle(object):
+        print('winning scene')
